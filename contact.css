@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+.container {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    background-color: #333;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.left-section, .right-section {
+    padding: 20px;
+    height: 500px;
+}
+.left-section {
+    flex: 1;
+    background-color: #222;
+}
+.left-section h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #333;
+}
+.left-section h1:hover{
+    color: #fff;
+}
+.left-section h4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orange;
+}
+.right-section {
+    flex: 1;
+    background-color: black;
+}
+.right-section h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #333;
+}
+.right-section h1:hover{
+    color: #fff;
+}
+.right-section p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gray;
+}
+h1, h2 {
+    margin-bottom: 10px;
+}
+p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: orange;
+    color: #000;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+.btn:hover {
+    background-color: orange;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: #fff;
+}
+.btn-orange {
+    background-color: orange;
+    color: white;
+}
+.btn-orange:hover {
+    background-color: black;
+}
+.footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1.5px;
+    background: #333;
+}
+

@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 59px;
+    padding-left: 20px;
+    margin-top: 2%;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Conteneur principal */
+.container {
+    display: flex; /* Utilisation de Flexbox */
+    align-items: center; /* Aligne le texte et l'image verticalement */
+    justify-content: space-between; /* Espace entre le texte et l'image */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto; /* Centre horizontalement */
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Section Texte */
+.text {
+    width: 50%; /* Occupe 50% de l'espace */
+    padding-right: 20px;
+}
+
+.text h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.text p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.text .btn {
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.text .btn:hover {
+    background-color: white;
+}
+
+/* Section Image */
+.image {
+    width: 50%; /* Occupe 50% de l'espace */
+    text-align: right; /* Centre l'image à droite */
+}
+
+.image img {
+    width: 100%; /* Adapte l'image à son conteneur */
+    border-radius: 8px;
+}
+.footer-content p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1.5px;
+    background-color: #333;
+}
+
+

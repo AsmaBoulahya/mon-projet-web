@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: orange;
+}   
+
+header.hero-section {
+    background: url('1.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header.hero-section h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: orange;
+}
+
+header.hero-section p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.destinations {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.destinations h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.destinations h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+.cultural-experiences {
+    padding: 50px 20px;
+    background: #fff;
+    text-align: center;
+}
+
+.cultural-experiences h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.cultural-experiences .experiences {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cultural-experiences .experiences div {
+    width: 300px;
+    margin: 10px;
+    text-align: left;
+}
+
+.cultural-experiences h3 {
+    font-size: 2em;
+    margin: 15px 0;
+    color: gray;
+}
+
+.cultural-experiences p{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1.5px;
+    background: #333;
+}
+
+
+
+
